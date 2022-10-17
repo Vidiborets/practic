@@ -1,0 +1,2 @@
+const e=document.querySelector('#counter button[data-action="decrement"]'),t=document.querySelector('#counter button[data-action="increment"]'),n=document.querySelector("#value"),c={value:0,increment(){this.value+=1},decrement(){this.value-=1}};e.addEventListener("click",(()=>{c.decrement(),n.textContent=c.value})),t.addEventListener("click",(()=>{c.increment(),n.textContent=c.value}));
+//# sourceMappingURL=task-04.cffc91c7.js.map
